@@ -1,0 +1,142 @@
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: ##333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color:Brown;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:black;``
+}
+</style>
+</head>
+<body>
+</head>
+<body bgcolor="Coral">
+<br
+<html>
+<head>
+<title>Nadiah's Website - Contact</title>
+<link rel="stylesheet"href="style.css">
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body bgcolor= "BurlyWood">
+<br>
+  <div class="navbar">
+   <ul>
+    <li><a href="Index.html">Home</a></li>
+    <li><a href="Biodata.html">Biodata</a></li>
+    <li><a href="Experience.html">Experience</a></li>
+    <li><a href="Education.html">Education</a></li>
+    <li><a href="Family.html">Family</a></li>
+    <li><a href="Friends.html">Friends</a></li>
+    <li><a href="Gallery.html">Gallery</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+   </ul>
+ <br>
+<font face="verdana"><h1 class="animate__animated animate__bounce">Me & my friends</h2>
+
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="friend1.jpg"style="width:40%">
+</div>
+
+<div class="mySlides fade">
+  <img src="friend2.jpg"style="width:40%">
+</div>
+
+<div class="mySlides fade">
+  <img src="friend3.jpg"style="width:40%">
+</div>
+
+<div class="mySlides fade">
+  <img src="friend4.jpg"style="width:40%">
+</div>
+
+<div class="mySlides fade">
+  <img src="friend5.jpg"style="width:40%">
+</div>
+
+<div class="mySlides fade">
+  <img src="friend6.jpg"style="width:40%">
+</div>
+
+<div class="mySlides fade">
+  <img src="friend7.jpg"style="width:40%">
+</div>
+
+<div class="mySlides fade">
+  <img src="friend8.jpg"style="width:40%">
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>  
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<audio controls autoplay>
+  <source src="let her go.mp3" type="let her go/mp3">
+</audio>
+
+<a href="let her go.mp3">let her go/mp3</a>
+<br>
+
+<embed src="let her go.mp3" hidden="true"></embed>
+<br>
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 
+
